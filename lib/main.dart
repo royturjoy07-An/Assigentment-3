@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:turjoy1069/container_page.dart';
 import 'package:turjoy1069/home_page.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: ContainerPage(),
     );
   }
 }
